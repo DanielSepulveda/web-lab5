@@ -1,0 +1,76 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+}
+
+li + li {
+	margin-top: 16px;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.container {
+	padding-top: 16px;
+}
+
+.item {
+	width: 450px;
+	padding: 16px;
+	border: 1px solid grey;
+}
+
+.item-name {
+	margin-top: 0px;
+	color: grey;
+	font-style: italic;
+}
+
+.btn {
+	margin: 8px;
+	padding: 5px 15px;
+	font-size: 0.875rem;
+	min-width: 64px;
+	border-radius: 4px;
+	border: 1px solid;
+	cursor: pointer;
+}
+
+.btn-primary {
+	color: #1976d2;
+	border: 1px solid rgba(25, 118, 210, 0.5);
+}
+
+.btn-primary:hover {
+	border: 1px solid #1976d2;
+	background-color: rgba(25, 118, 210, 0.04);
+}
+
+.btn-delete {
+	color: rgb(220, 0, 78);
+	border: 1px solid rgba(220, 0, 78, 0.5);
+}
+
+.btn-delete:hover {
+	border: 1px solid rgb(220, 0, 78);
+	background-color: rgba(220, 0, 78, 0.04);
+}
+
+.item--checked {
+	text-decoration: line-through;
+}
